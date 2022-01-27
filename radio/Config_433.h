@@ -3,6 +3,9 @@
 
 #include "stdint.h"
 #include "AX5043.h"
+
+// TX: fcarrier=434.600MHz dev=  0.800kHz br=  0.600kBit/s pwr= 10.0dBm
+// RX: fcarrier=434.600MHz bw=  2.400kHz br=  0.600kBit/s
 uint16_t set_registers_433[][2]=
 {
     {REG_AX5043_MODULATION              , 0x08},
